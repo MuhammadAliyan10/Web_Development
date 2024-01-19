@@ -1,0 +1,8 @@
+{
+  "information": [
+    { "name": "Aliyan", "age": 20, "Section": "A" },
+    { "name": "Muhammad Zubair", "age": 21, "Section": "A" },
+    { "name": "Muhammad Noor", "age": 22, "Section": "B" },
+    { "name": "Muhammad Awais", "age": 25, "Section": "B" }
+  ]
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data</h1>
+    <h2 id="title"></h2>
+    <h2 id="heading"></h2>
+    <p id="desc"></p>
+    <p id="price"></p>
+  </body>
+  <script>
+    const api = "https://dummyjson.com/products";
+    const fetchData = async () => {
+      const data = await fetch(api);
+      const res = await data.json();
+      var finaldata = res.products;
+      document.getElementById("heading").innerHTML = finaldata[0].brand;
+      document.getElementById("desc").innerHTML = finaldata[0].description;
+      document.getElementById("price").innerHTML = finaldata[0].price;
+      document.getElementById("title").innerHTML = finaldata[0].title;
+    };
+    fetchData();
+  </script>
+</html>

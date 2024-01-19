@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data</h1>
+    <ul id="valuesList"></ul>
+  </body>
+  <script>
+    const api = "https://dummyjson.com/products";
+    const fetchData = async () => {
+      const data = await fetch(api);
+      const res = await data.json();
+      document.cre;
+      var finaldata = res.products;
+
+      finaldata.map((p) => {
+        console.log(p);
+        const valuesList = document.getElementById("valuesList");
+        const listItem = document.createElement("li");
+        listItem.innerHTML = `
+            <p>Title: ${p.title}</p>
+            <p>Description: ${p.description}</p>
+            <p>Model: ${p.brand}</p>
+            <p>Price: ${p.price}</p>
+        `;
+        valuesList.appendChild(listItem);
+      });
+    };
+
+    fetchData();
+  </script>
+</html>
