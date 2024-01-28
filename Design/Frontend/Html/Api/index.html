@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="Author"></h2>
+    <p id="Quotes"></p>
+    
+  </body>
+
+  <script>
+    const fetchData = async (index) => {
+      const api = "https://dummyjson.com/quotes?limit=100";
+      const data = await fetch(api);
+      const jsonData = await data.json();
+      const res = await jsonData.quotes;
+      document.getElementById("Author").innerHTML = res[index].author;
+      document.getElementById("Quotes").innerHTML = res[index].quote;
+    };
+    fetchData(1);
+  </script>
+</html>

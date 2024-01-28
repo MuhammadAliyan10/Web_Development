@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 id="Author"></h2>
+    <p id="Quotes"></p>
+    <img id="image" src="" alt="" />
+  </body>
+
+  <script>
+    const fetchData = async (index) => {
+      const api = " https://dummyjson.com/carts";
+      const data = await fetch(api);
+      const jsonData = await data.json();
+      const res = await jsonData.carts;
+      const carts = await jsonData.carts;
+      console.log(res);
+      document.getElementById("Author").innerHTML =
+        carts[index].products[index].title;
+      document.getElementById("Quotes").innerHTML =
+        carts[index].products[index].price;
+      document.getElementById("image").src =
+        carts[index].products[index].thumbnail;
+    };
+    for (let i = 0; i < 10; i++) {
+     
+      fetchData(i);
+      
+    }
+  </script>
+</html>
