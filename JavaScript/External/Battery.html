@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battery Status</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 10rem auto 0px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Battery Status</h2>
+      <ul>
+        <li><strong>Battery Level:</strong> <span id="level"></span></li>
+        <li><strong>Battery Charging:</strong> <span id="charging"></span></li>
+      </ul>
+      <button id="check">Check</button>
+    </div>
+
+    <script>
+      document.getElementById("check").addEventListener("click", async () => {
+        try {
+          const battery = await navigator.getBattery();
+          document.getElementById("level").textContent =
+            Math.round(battery.level * 100) + "%";
+          document.getElementById("charging").textContent = battery.charging
+            ? "Yes"
+            : "No";
+        } catch (error) {
+          console.error("Error accessing battery information:", error);
+        }
+      });
+    </script>
+  </body>
+</html>
