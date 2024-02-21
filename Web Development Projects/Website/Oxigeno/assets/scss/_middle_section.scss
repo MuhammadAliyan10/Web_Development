@@ -1,0 +1,174 @@
+.middle-section{
+    background-image: url(../img/inner-landing-02.jpg);
+    background-position: center;
+    height: 550px;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    align-items: center;
+    .container-fluid{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        .middle-info{
+            h2{
+                font-size: 46px;
+                font-weight: 300;
+                color: #fff;
+                span{
+                    color: #00ffff;
+                    font-weight: 900;
+                }
+
+            }
+            p{
+                color: #fff;
+                font-size: 20px;
+
+            }
+        }
+        .middle-logo{
+            padding-top: 2rem;
+            ul{
+                display: flex;
+                margin: 0;
+                justify-content: space-between;
+                padding: 0;
+                list-style-type: none;
+
+            }
+            li{
+                img{
+
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+.youtube{
+    .container-fluid{
+        padding-left: 0 !important;
+        padding-right: 1rem;
+        .mid-info{
+            background-color: #ffffff;
+            box-shadow: 0 -5px 10px 10px rgb(0 0 0 / 20%) !important;
+            transform: translateY(-15%);
+            padding-top: 8rem;
+            padding-left: 2rem;
+            border-radius: 0px 8px 8px 0px;
+            padding-bottom: 8rem;
+            padding-right: 1rem;
+        .row{
+            .youtube-info{
+                h2{
+                    font-size: 43px;
+                    font-weight: 300;
+                    span{
+                        color: $primary;
+                        font-weight: 900;
+                        margin: 0;
+
+                    }
+                }
+                h3{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    margin: 18px 0px;
+
+                }
+                p{
+                    font-size: 14px;
+                    color: #191919;
+                    margin-bottom: 30px;
+                }
+                .btn-primary{
+                    color: #fff;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 10px 31px;
+                    letter-spacing: 1px;
+                    font-size: 13px;
+                    font-family: 'Montserrat', sans-serif;
+                    border: 3px solid $primary;
+                    &:hover{
+                    color: $primary;
+                    border: 3px solid $primary;
+                    }
+
+                }
+            }
+            .youtube-vedio{
+                img{
+                    width: 750px;
+                    padding-left: 6rem;
+                    position: relative;
+
+                }
+                &::after{
+                    content: "\e95f";
+                    position: absolute;
+                    top: 43%;
+                    left: 67%;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+.custom-icons{
+    background-color: #efefef;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .custom-info{
+        h2{
+            font-weight: 300;
+            font-size: 45px;
+            color: black;
+            margin-bottom: 1rem;
+            span{
+                font-weight: 900;
+                font-size: 46px;
+                color:$primary;
+
+            }
+        }
+        p{
+            font-size: 20px;
+            line-height: 30px;
+            color: #000;
+
+        }
+    }
+    .cus-icons{
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                list-style-type: none;
+                text-decoration: none;
+                a{
+                    &:hover{
+                        color: $primary;
+                    }
+                    i{
+                        font-size: 40px;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

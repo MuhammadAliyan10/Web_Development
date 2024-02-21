@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts
+  script(src='/Static/script.js')
+
+block style 
+    style 
+      include ../Static/compeny.css
+      include ../Static/style.css
+
+
+block content
+    .our_compeny
+     .global-header
+      h3 Compeny
+     .compeny-contant 
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda error maiores debitis similique!<br> Hic alias aspernatur perspiciatis aliquid maiores quaerat temporibus minima excepturi esse<br> exercitationem qui nostrum, soluta quisquam dolore debitis eligendi odio voluptatem!
+
+
+
+block foot 
+        footer
+            .global-header 
+             h1 
+             | Sponcers
+
+            div#sponcer
+                img(src="./Static/img/footer4.png")
+                img(src="./Static/img/footer1.png")
+                img(src="./Static/img/footer2.png")
+                img(src="./Static/img/footer3.png")

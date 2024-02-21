@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+
+    <!-- <script>
+        let home = '{"employes": [' +
+        '{"firstName":"Aliyan","lastName":"Nadeem"},' +
+        '{"firstName":"Ali","lastName":"Hadier"},'+
+        '{"firstName":"Noor","lastName":"UlAin"}]}';
+
+        const obj = JSON.parse(home);
+        document.getElementById('demo').innerHTML = obj.employes[1].firstName + " " + obj.employes[1].lastName;
+    </script>
+     -->
+
+<script>
+    // const xmlhttp = new XMLHttpRequest();
+    // xmlhttp.onload = function() {
+    //     const MyObj = JSON.parse(this.responseText);
+    //     document.getElementById("demo").innerHTML = MyObj.name;
+    // }
+    // xmlhttp.open("GET", 'demo_file.php');
+    // xmlhttp.send();
+
+
+const xmlhttp = new XMLHttpRequest();
+
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+xmlhttp.open("GET", "demo_file.php");
+xmlhttp.send();
+
+
+
+
+</script>
+
+</body>
+</html>

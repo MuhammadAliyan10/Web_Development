@@ -1,0 +1,206 @@
+// Module Style
+
+.middle-section {
+    position: relative;
+
+    .handmade {
+        background-color: #f1eeea;
+        padding-top: 90px;
+        padding-bottom: 80px;
+
+        .homemade-img {
+            img {
+                left: 0;
+                top: 0;
+                width: 75%;
+                height: 475px;
+                object-fit: cover;
+                position: relative;
+            }
+        }
+
+        .container-fluid {
+            .row {
+                justify-content: flex-end !important;
+
+                .handmade-info {
+                    h2 {
+                        color: #343434;
+                        text-align: right;
+                        font-weight: 900;
+                        font-family: 'Reem Kufi', sans-serif;
+                        font-size: 70px;
+                        position: absolute;
+                        top: 10rem;
+                        right: 1rem;
+                    }
+
+                }
+
+                .handmade-text {
+                    background-color: #656b50;
+                    padding: 3rem 6rem;
+                    position: absolute;
+                    text-align: center;
+                    right: 1rem;
+                    bottom: 0;
+                    left: 42rem;
+
+                    p {
+                        color: white;
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 1rem;
+                    }
+
+                    a {
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 1.1rem;
+                        font-family: 'Muli', sans-serif;
+
+                        &:hover {
+                            background-color: 0;
+                            color: #b69b74;
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+.facility {
+    background-color: #f1eeea;
+    padding-top: 90px;
+    padding-bottom: 45px;
+
+    .container-fluid {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+
+        .we-do {
+            text-align: center;
+
+            i {
+                font-size: 96px;
+                color: #b69b74;
+                padding-bottom: 1rem !important;
+            }
+
+            h2 {
+                font-family: 'Reem Kufi', sans-serif;
+                font-size: 2.4rem;
+                font-weight: 700;
+                color: #343434;
+                padding: 1rem 0;
+
+            }
+
+            p {
+                color: #767676;
+                font-family: 'Mulish', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                font-size: 1.2rem;
+
+            }
+        }
+    }
+}
+
+
+
+
+.unique-work {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #eee8df;
+
+    .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+
+        .experience {
+            h2 {
+                font-family: 'Reem Kufi', sans-serif;
+                font-size: 4.7rem;
+                font-weight: 700;
+                color: #343434;
+                margin: 0;
+            }
+
+            p {
+                font-family: 'Mulish', sans-serif;
+                line-height: 1.3;
+                font-weight: 300;
+                font-size: 1.5rem;
+                margin: 2rem 0px;
+
+            }
+
+            img {
+                width: 90%;
+                box-shadow: 2.5px 4.3px 29px 0 rgb(0 0 0 / 18%);
+            }
+        }
+
+        .materials {
+            h2 {
+                font-family: 'Reem Kufi', sans-serif;
+                font-size: 2rem;
+                font-weight: 700;
+                padding-bottom: 1rem;
+
+            }
+
+            p {
+                font-family: 'Mulish', sans-serif;
+                font-weight: 300;
+                font-size: 1.1rem;
+                margin-bottom: 2.5rem;
+            }
+        }
+
+        .design {
+            .accordion {
+                .accordion-item {
+                    border: 0 !important;
+                    background-color: #eee8df;
+
+                    .accordion-button {
+                        background-color: #eee8df;
+                        box-shadow: none !important;
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 1.6rem;
+                        color: #000000;
+                        padding: 1rem 0rem;
+
+                    }
+
+                    .accordion-body {
+                        font-size: 1rem;
+                        font-family: 'Mulish', sans-serif;
+
+                    }
+                    .accordion-button::after {
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6a400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+                        transform: rotate(0deg);
+
+                    }
+                    .accordion-button:not(.collapsed)::after {
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e6a400'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+                        transform: rotate(180deg);
+                        @extend .transition-300 
+                    }
+                }
+            }
+        }
+    }
+}

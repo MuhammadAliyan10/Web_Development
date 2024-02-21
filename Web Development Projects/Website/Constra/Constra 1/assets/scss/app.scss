@@ -1,0 +1,20 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Your style
+@import "header";
+@import "banner";
+@import "footer";
+@import "home_section";
+@import "global";
+@import "testimonials";
+@import "gallery";
+@import "bottom_section";
+
+
+
+
+

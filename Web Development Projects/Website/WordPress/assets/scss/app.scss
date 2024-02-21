@@ -1,0 +1,22 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Your style
+@import "header";
+@import "home_section";
+@import "global";
+@import "layout";
+@import "module";
+@import "footer";
+
+/* CUSTOM STYLES
+-------------------------------------------------- */
+//Smooth Scroll
+html {
+  scroll-behavior: smooth;
+}
+/* Padding below the footer and lighter body text */
+

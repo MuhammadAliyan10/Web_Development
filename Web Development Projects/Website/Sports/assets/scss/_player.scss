@@ -1,0 +1,96 @@
+.home-section {
+    .contanier-fluid {
+        .background-img {
+            background-image: url(../img/section-basketball-bg.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 640px;
+
+            img {
+                width: 220px;
+                height: 240px;
+            }
+        }
+
+        .info-left {
+            height: 590px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 85px;
+
+            .basketball-info {
+                text-align: center;
+
+                h2 {
+                    color: #404040;
+                    font-size: 50px;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                }
+
+                h3 {
+                    font-size: 17px;
+                    margin-bottom: 3rem;
+                    font-weight: 700;
+                    color: #8a899d;
+
+                }
+
+                p {
+                    color: #8a899d;
+                    margin-bottom: 4rem;
+                    line-height: 1.75;
+                    font-size: 16px;
+                }
+
+                .basketball-btn {
+                    .btn-primary {
+                        margin-right: 1rem;
+                        padding: 16px 25px;
+                        font-size: 12px;
+                        letter-spacing: .16rem;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width:400px){
+        .background-img{
+            height: 180px !important;
+            img{
+                width: 140px !important;
+                height: 160px !important;
+            }
+        }
+        .info-left{
+            margin: 5px 24px !important;
+            align-items:flex-start !important;
+            .basketball-info{
+            h2{
+                font-size: 25px !important;
+                margin-bottom: 10px !important;
+            }
+            h3{
+                font-size: 14px !important;
+                margin-bottom: 15px !important;
+            }
+            p{
+                font-size: 12px !important;
+                margin-bottom: 1rem !important;
+            }
+            .basketball-btn{     
+                    .btn-primary{
+                        margin-right: 0 !important;
+                        font-size: 10px !important;
+                        padding: 10px 13px !important;
+                        letter-spacing: 0 !important;
+                }
+            }
+        }
+    }
+    }
+    }

@@ -1,0 +1,114 @@
+// TEstimonails Start
+
+.testimonials{
+    padding:60px 0px;
+    .container{
+        .testimonials-info{
+            margin-bottom: 40px;
+            h2{
+                font-size: 24px;
+                color: #212121;
+                font-weight: 700;
+            }
+        }
+        .carousel-inner{
+            .testimonilas-text{      
+            span{
+                font-size: 16px;
+                font-style: italic;
+                color: #555;
+                padding: 0px 40px 30px 60px;
+                display: inline-block;
+                background-color: white;
+                &::before{
+                    content: "\f10d";
+                    font-family: "Font Awesome 5 Free";
+                    font-size: 30px;
+                    color: #ffb600;
+                    position: absolute;
+                    top: 0;
+                    font-weight: 700;
+                    left: 0;
+                    display: block;
+                }
+            }
+    }
+}
+    .carousel-indicators [data-bs-target] {
+        border-radius: 50%;
+        width: 11px;
+        height: 11px;
+        background-color: silver;
+        margin: 0px 9px;
+        &:focus{
+            background-color: #ffb600;
+        }
+    }
+    .carousel-indicators{
+        bottom: -42px;
+        left: 0px;
+}
+
+    .client{
+        padding-left: 60px;
+        padding-top: 30px;
+        .client-img{
+            img{
+                max-width: 80px;
+                float: left;
+                margin-right: 20px;
+                border-radius: 5px;
+            }
+
+        }
+        .client-info{
+            h2{
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 2px;
+                display: block;
+                color: #ffb600;
+
+
+            }
+            p{
+                color: #555;
+                font-size: 15px;
+            }
+        }
+    }
+    .happy-client{
+        .client-logo{
+            border: 1px solid #dadada;
+            margin-bottom: 30px;
+            padding:0px 30px;
+            display: flex;
+            justify-content: center;
+            min-height: 105px;
+            align-items: center;
+            img{
+                max-width: 100%;
+                height: auto;
+                filter: grayscale(1);
+                &:hover{
+                    filter: none;
+                }
+            }
+        }
+    }
+}
+@media(max-width:900px){
+    .happy-client{
+        padding-top: 60px;
+        .client-logo{
+            img{
+            align-items: center !important;
+            justify-content: center !important;
+            }
+        }
+    }
+    .carousel-indicators{
+        left: 74px !important;
+    }
+}
+}

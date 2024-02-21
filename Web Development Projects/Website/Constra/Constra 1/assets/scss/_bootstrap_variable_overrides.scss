@@ -1,0 +1,37 @@
+// Bootstrap overrides variables
+ $primary: #ffb600;
+ $secondary: #222;
+ $success:#fff;
+ $info:#ebebeb;
+
+
+
+ $btn-font-family: 'Montserrat', sans-serif;
+ $btn-font-weight:700;
+ $btn-font-size: 14px;
+ $btn-padding-y: 12px;
+ $btn-padding-x: 23px;
+ $btn-box-shadow:none;
+ $btn-border-width: 2px;
+ $headings-font-family:  'Montserrat', sans-serif ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1140px
+  ) !default;

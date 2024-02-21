@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#nav-bar{
+    display: flex;
+    padding: 0px 1rem;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+
+}
+#nav-bar .nav-brand{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+#nav-bar .nav-brand img{
+    height: 44px;
+    margin-right: 8px;
+}
+#nav-bar .nav-brand h2{
+    margin: 0;
+    
+}
+#nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-bar ul li{
+    list-style: none;
+    margin-right: 24px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    &:hover{
+        color: #ffb600;
+    }
+}
+
+.top-section {
+    background: center/ contain no-repeat url(/Static/img/backgrond-top.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.middle-section{
+    width: 100%;
+    background-color: #000;
+}
+section{
+    padding: 1rem;
+}
+.middle-section .card {
+    border: 2px solid #ffb600;
+    width: 27%;
+    border-radius: 10px;
+    margin: 0px 36px;
+    display: inline-block;
+}
+.global-header{
+    text-align: center;
+    color: #ffb600;
+    font-size: 24px;
+    padding: 4rem 0rem 2rem 0rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+}
+.middle-section .card .card-contant{
+    color: #fff;
+    padding: 20px;
+}
+.middle-section .card .card-contant h2{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.middle-section .card .card-contant p{
+    font-size: 14px;
+    line-height: 24px;
+
+
+}
+footer{
+    width: 100%;
+    background-color: #000;
+}
+footer #sponcer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer #sponcer img{
+    height: 150px;
+} 

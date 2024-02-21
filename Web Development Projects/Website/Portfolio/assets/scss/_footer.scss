@@ -1,0 +1,124 @@
+.footer {
+    background-image: url(..//img/map-image.png);
+    background-color: #212529;
+    background-position: center;
+
+    .footer-top {
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        text-align: center;
+
+        h2 {
+            font-weight: 700;
+            font-size: 36px;
+            color: #fff;
+
+        }
+
+        p {
+            color: #6c757d;
+            font-style: italic;
+            font-size: 14px;
+        }
+
+    }
+
+    .container-fluid {
+        .form {
+            .margin {
+                margin-bottom: -6px;
+            }
+
+            .form-control {
+                padding: 0.8rem 0.8rem;
+                font-weight: 500;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                box-shadow: none !important;
+            }
+        }
+
+        .form-message {
+            .form-control {
+                padding: 0.8rem 0.8rem;
+                font-weight: 700;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                box-shadow: 0 !important;
+            }
+
+        }
+        .contact-btn{
+            text-align: center;
+            padding-top: 3rem;
+            padding-bottom: 5rem;
+        }
+    }
+    @media(max-width:400px){
+        .container-fluid{
+            padding: 0px 6px !important;
+        }
+    }
+}
+
+
+.bottom-footer{
+    .container{
+        p{
+            font-size: 11px;
+            margin: 0;
+        }
+        .team-icon{
+            display: flex;
+            justify-content: center !important;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            li{
+                border: 3px solid #212529;
+                border-radius: 50%;
+                width: 1.9rem;
+                margin: 0px 0.7rem;
+                background-color: #212529;
+                height: 1.9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    i{
+                        font-size: 15px;
+                        color:#fff;
+
+                    }
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+
+    }
+        .policy{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 11px;
+                margin: 0;
+                a{
+                    text-decoration: none;
+                    color:#6c757d;
+                    margin-left: 2rem;
+                    &:first-child{
+                        margin-left: 0 !important;
+                    }
+                }
+        }
+    }
+    @media(max-width:400px){
+        p{
+            margin-bottom: 6px !important;
+        }
+    }
+}

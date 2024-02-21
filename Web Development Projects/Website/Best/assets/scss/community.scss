@@ -1,0 +1,145 @@
+.community{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
+    background-color: #031b69;
+    .contant-community{
+        position: relative;
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+                li{
+                    &:hover{
+                        background-color: transparent;
+                        transition: 0.3s;
+                        border: 1px solid #fff;
+                    }
+                }
+                .google-plus{
+                    background-color: #EA4335;
+                    padding: 36px;
+                    border-radius: 70px;
+                    a{
+                        i{
+                            font-size: 41px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .linkdinn{
+                    background-color:#0e76a8 ;
+                    padding: 30px;
+                    border-radius: 70px;
+                    position: absolute;
+                    top: -2%;
+                    left: 19%;
+                    a{
+                        i{
+                            font-size: 32px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .dribble{
+                    background-color: #E84C88;
+                    padding: 27px;
+                    border-radius: 70px;
+                    position: absolute;
+                    top: 109%;
+                    left: 26%;
+                    a{
+                        i{
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .behance{
+                    background-color: #B4B4B4;
+                    padding: 30px;
+                    border-radius: 70px;
+                    position: absolute;
+                    bottom: -59%;
+                    left: 38%;
+                    a{
+                        i{
+                            font-size: 32px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .github{
+                    background-color: #171515;
+                    padding: 27px;
+                    border-radius: 70px;
+                    position: absolute;
+                    left: 45%;
+                    top: -11%;
+                    a{
+                        i{
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .youtube{
+                    background-color: #ff0000;
+                    padding: 36px;
+                    border-radius: 70px;
+                    left: 57%;
+                    position: absolute;
+
+
+                    a{
+                        i{
+                            font-size: 41px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .twiterr{
+                    background-color: #1da1f2;
+                    padding: 30px;
+                    border-radius: 70px;
+                    left: 77%;
+                    position: absolute;
+                    top: -8%;
+                    a{
+                        i{
+                            font-size: 32px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+                .flicker{
+                    background-color:#F93FA2 ;
+                    padding: 27px;
+                    border-radius: 70px;
+                    position: absolute;
+                    right: 4%;
+                    top: 102%;
+                    a{
+                        i{
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }

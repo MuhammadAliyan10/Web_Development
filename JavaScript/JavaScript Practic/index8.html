@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .red{
+        color: white;
+        background-color: red;
+        padding: 10px 14px;
+        border-radius: 5px;
+        border: 2px solid red;
+    }
+</style>
+<body>
+
+    <p id="demo">Text before add event listner</p>
+    <button id="btn">Try It</button>
+    <script>
+        // const person = {
+        //     fullname : function(){
+        //         return this.firstname + " " + this.lastname;
+        //     }
+        // }
+        // const person2 = {
+        //     firstname : "Aliyan",
+        //     lastname : 'Nadeem'
+        // }
+        // document.getElementById('demo').innerHTML = person.fullname.apply(person2)
+    //     const person = {
+    //         fullname : function(state,city) {
+    //         return this.firstname + " " + this.lastname+ "," + city + "," + state;
+    //     }
+    // }
+    //     const person2 = {
+    //         firstname : "Aliyan",
+    //         lastname : "Nadeem"
+    //     }
+    //     document.getElementById('demo').innerHTML = person.fullname.call(person2, 'Sillanwali','Sargodha')
+
+            // let element = document.getElementById('btn')
+            // let para = document.getElementById('demo')
+            // element.addEventListener('click', () =>{
+            //     document.getElementById('demo').innerHTML ='Text after add event listner.'
+            //     para.classList.toggle('red')
+
+
+            // })
+        //  const button = document.getElementById('btn')
+        //  button.addEventListener('click', () => {
+        //     let node = document.createElement('li')
+        //     let nodetext = document.createTextNode('Water')
+        //     node.appendChild(nodetext)
+        //     document.getElementById('list').appendChild(node)})
+
+        const para = document.createElement('h1')
+        const node = document.createTextNode('This is my first heading')
+        para.appendChild(node)
+            
+        const btn = document.getElementById("btn")
+        btn.addEventListener('click', () =>{
+           const element =  document.getElementById('demo')
+           element.appendChild(para)
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title BMW
+    block scripts
+    block style
+  body
+    nav#nav-bar 
+        div.nav-brand 
+            img(src="./Static/img/top-logo.jpg")
+            h2 
+            | BMW
+        ul 
+            li #[a(href = "/home") Home]
+            li #[a(href = "/about") About]
+            li #[a(href = "/compeny") Compeny]
+            li #[a(href = "/services") Services]
+            li #[a(href = "/contact") Contact Us]
+    block content
+    block foot
+      

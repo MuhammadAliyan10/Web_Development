@@ -1,0 +1,79 @@
+.gallery {
+    padding-top: 60px;
+    .container {
+        .gallery-item {
+            .gallery-img {
+                position: relative;
+                overflow: hidden;
+                background-color: #000;
+                @extend .transition-300;
+                img {
+                    width: 100%;
+                }
+            }
+            &:hover .gallery-img img {
+                opacity: .3;
+            }
+            .gallery-icon {
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 1;
+                opacity: 0;
+                transform: scale(0);
+                color: white;
+                background-color: #ffb600;
+                padding: 6px 12px;
+                text-align: center;
+                font-weight: 900;
+                @extend .transition-400;
+            }
+            .gallery-text {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-40%);
+                padding: 0 20px;
+                opacity: 0;
+                @extend .transition-300;
+                h2 {
+                    a {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: white;
+                        margin-bottom: 20px;
+                        text-decoration: none;
+                        &:hover {
+                            color: #ffb600;
+                        }
+                    }
+                }
+                p {
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #000;
+                    padding: 4px 14px;
+                    background-color: #ffb600;
+                    display: inline-block;
+                }
+            }
+            &:hover .gallery-text {
+                opacity: 1;
+                transform: translateY(-50%);
+            }
+            &:hover .gallery-icon {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+}
+.project-btn {
+    text-align: center;
+    margin-top: 40px;
+
+    .btn-primary {
+        margin-bottom: 70px;
+    }
+}

@@ -1,0 +1,122 @@
+.subcribe {
+    background-color: #ffb600;
+    position: relative;
+    &::after {
+        content: "";
+        width: 50%;
+        top:0;
+        bottom:0;
+        right: 0;
+        background-color: #252525;
+        position: absolute;
+    }
+    .container {
+        position: relative;
+        z-index: 1;
+        .we-help {
+            h2 {
+                color: black;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 7px;
+            }
+            h3 {
+                font-size: 24px;
+                color: white;
+                margin: 0;
+                font-weight: 700;
+            }
+        }
+        .newsletter-text {
+            color: white;
+            h2 {
+                font-size: 20px;
+                margin-bottom: 7px;
+                font-weight: 700;
+            }
+            h3 {
+                font-size: 16px;
+                margin: 0;
+            }
+        }
+        .email-us {
+            .form-control {
+                border-radius: 0 !important;
+                border: 1px solid rgba(255, 255, 255, 0.3) !important;
+                background-color: transparent;
+                color: #959595;
+                box-shadow: none;
+                font-size: 12px;
+                height: 44px !important;
+                &:focus {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+}
+    @media(max-width:900px) {
+        .subcribe{
+            &::after{
+                display: none !important;
+            }
+        }
+        .we-help {
+            text-align: center !important;
+            padding: 20px 0px !important;
+            h3 {
+                font-size: 20px !important;
+            }
+        }
+        .newsletter-text {
+            text-align: center !important;
+            padding: 10px 0px !important;
+        }
+        .email-us {
+            align-items: center !important;
+            padding: 0px 0px 10px !important;
+        }
+        .subcribe{
+            &::after{
+                width: 0!important;
+            }
+        }
+    }
+}
+
+
+.last-project{
+    background-color: #f9f9f9 ;
+    .container{
+        .news{
+            .news-img{
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+
+            }
+            .news-text{
+                padding: 20px 0px 5px;
+                h4{
+                    font-size: 19px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    a{
+                        text-decoration: none;
+                        color: #303030;
+                        display: inline-block;
+                        &:hover{
+                            color: #ffb600;
+                        }
+                    }
+                }
+                p{
+                    font-size: 13px;
+                    color: black;
+
+                }
+            }
+        }
+    }
+}

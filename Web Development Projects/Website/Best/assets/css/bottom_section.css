@@ -1,0 +1,118 @@
+.documentation {
+  background: #062489;
+  width: 100%;
+}
+.documentation .country .country-flag {
+  text-align: center;
+}
+.documentation .country .country-flag ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+.documentation .country .country-flag ul li img {
+  transform: rotate(0deg);
+  transition: 1s;
+}
+.documentation .country .country-flag ul li img:hover {
+  transform: rotate(10deg);
+}
+.documentation .country .country-flag ul li h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.documentation .country .country-flag ul li h2:hover {
+  color: #FB9A8C;
+}
+.documentation .token {
+  width: 100%;
+  height: 100vh;
+}
+.documentation .token .token-dis .token-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.documentation .token .token-dis .token-img img {
+  width: 400px;
+  height: 500px;
+}
+.documentation .token .data-distribution {
+  position: relative;
+}
+.documentation .token .data-distribution ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.documentation .token .data-distribution li h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.documentation .token .data-distribution li > h2 > span {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 700;
+}
+.documentation .token .data-distribution .one {
+  position: absolute;
+  top: 53px;
+  left: -2%;
+}
+.documentation .token .data-distribution .two {
+  position: absolute;
+  top: 176px;
+  left: -2%;
+}
+.documentation .token .data-distribution .three {
+  position: absolute;
+  left: -2%;
+  top: 250px;
+}
+.documentation .token .data-distribution .four {
+  position: absolute;
+  left: -2%;
+  top: 371px;
+}
+.documentation .token-bottom {
+  position: relative;
+}
+.documentation .token-bottom .sales-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.documentation .token-bottom .sales-content li h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.documentation .token-bottom .sales-content li > h2 > span {
+  color: #fff;
+  font-size: 37px;
+  font-weight: 700;
+}
+.documentation .token-bottom .sales-content .first {
+  position: absolute;
+  top: 22%;
+  left: 45%;
+}
+.documentation .token-bottom .sales-content .second {
+  position: absolute;
+  top: 39%;
+  left: 37%;
+}
+.documentation .token-bottom .sales-content .third {
+  position: absolute;
+  top: 55%;
+  left: 29%;
+}
+.documentation .token-bottom .sales-content .fourth {
+  position: absolute;
+  top: 72%;
+  left: 21%;
+}

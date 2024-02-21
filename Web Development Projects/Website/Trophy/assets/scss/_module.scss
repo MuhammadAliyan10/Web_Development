@@ -1,0 +1,52 @@
+// Module Style
+
+
+
+
+.middle-section{
+    .container-fluid{
+        padding-left: 7rem;
+        padding-right: 2rem;
+        .middle-info{
+            padding: 0px 6rem;
+            h2{
+                font-weight: 700;
+                font-size: 33px;
+            }
+            p{
+                font-size: 19px;
+                color: #808080;
+                line-height: 31px;
+            }
+            .middle-icon{
+                padding-top: 2rem;
+                ul{
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+                    text-decoration: none;
+                    li{
+                        font-size: 16px;
+                        font-family: 'Titillium Web', sans-serif;
+                        color: black;
+                        font-weight: 500;
+                        margin-bottom: 1rem;
+                        line-height: 1;
+                        opacity: .7;
+                        i{
+                            color: $primary;
+                            font-size: 21px;
+                            margin-right: 10px;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .middle-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

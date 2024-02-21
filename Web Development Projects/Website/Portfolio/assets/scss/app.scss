@@ -1,0 +1,17 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Your style
+@import "team";
+@import "mixins";
+@import "header";
+@import "global";
+@import "about";
+@import "footer"
+
+/* CUSTOM STYLES
+-------------------------------------------------- */
+//Smooth Scroll

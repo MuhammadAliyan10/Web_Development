@@ -1,0 +1,51 @@
+.footer-contant {
+  padding-top: 2rem;
+  width: 100%;
+  height: 50vh;
+}
+.footer-contant img {
+  margin-bottom: 1rem;
+}
+.footer-contant p {
+  font-size: 13px;
+  margin-bottom: 1rem;
+  line-height: 28px;
+}
+.footer-contant .footer-ul ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-contant .footer-ul ul li {
+  margin-bottom: 14px;
+}
+.footer-contant .footer-ul ul li a {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-contant .footer-ul ul li a:hover {
+  color: #FB9A8C;
+  padding-left: 5px;
+}
+.footer-contant .subsribe h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #cbe5ff;
+  margin-bottom: 2rem;
+}
+.footer-contant .subsribe input {
+  box-shadow: none;
+  border-radius: 7px;
+  background-color: #031b69;
+  margin-right: 5px;
+  width: 80%;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding: 13px 14px;
+  border: none;
+  outline: none;
+}

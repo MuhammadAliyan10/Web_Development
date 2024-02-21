@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+.top{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.inner{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7); 
+}
+.outer{
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#number{
+    font-weight: 600;
+    color: #555;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+
+}
+svg{
+    position: absolute;
+    top: 19px;
+    left: 21px;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 165;
+    }
+}

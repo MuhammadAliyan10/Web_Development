@@ -1,0 +1,71 @@
+.top-header{
+    background: #f1eeea;
+    .container{
+        .navbar-toggler {
+      
+        }
+        .top-logo{
+            span{
+                a{
+                    text-decoration: none;
+                    color: $secondary;
+                    font-weight: 700;
+                    font-family: 'Reem Kufi', sans-serif;
+                    font-size: 2.2rem;
+                    &:hover{
+                        color: #4d4d4d;
+                    }
+
+                }
+            }
+        }
+        .top-nav{
+            float: right;
+            .navbar-nav{
+                padding: 0;
+                margin: 0;
+            &>li{
+                display: block;
+                padding-left: 2rem;
+                &>a{
+                    color: $secondary;
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 17px;
+                    border-bottom: 2px solid transparent;
+                        &:hover{
+                            border-bottom: 2px solid #b69b74 !important;
+                            transform: scaleZ(1);
+                            @extend .transition-400
+                        }
+                }
+            &>ul {
+                background-color: #f1eeea;
+                border: 0 !important;
+                border-radius: 0!important;
+                margin: 0;
+                padding: 0;
+                &>li {
+                    padding: 12px 26px !important;
+                    &>a {
+                        text-align: center;
+                        color: $secondary;
+                        font-family: 'Mulish', sans-serif;
+                        border-bottom: 2px solid transparent;
+                        &:hover{
+                            border-bottom: 2px solid #b69b74 !important;
+                            @extend .transition-400
+                        }
+
+                    }
+                    
+
+                }
+            }
+            &:hover >ul{
+                display: block;
+            }
+        }
+        }
+    }
+    }//container
+}//top-header

@@ -1,0 +1,62 @@
+// Module Style
+
+
+
+.paralax{
+    background-image: url(../img/te.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .para-info{
+        text-align: center;
+        h2{
+            font-size: 60px;
+            color: #fff;
+            font-weight: 400;
+            padding-bottom: 1rem;
+
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #fff;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+
+.limited{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    h1{
+        font-size: 31px;
+        color: #000;
+        font-weight: 400;
+        padding: 0;
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #8c979e;
+        padding: 1rem 0rem;
+    }
+}
+
+
+.container-fluid{
+    padding-left: 40px;
+    padding-right: 40px;
+.plant{
+    img{
+    width: 100%;
+    height: auto;
+    }
+}
+}

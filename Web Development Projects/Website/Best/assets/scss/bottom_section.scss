@@ -1,0 +1,143 @@
+.documentation {
+    background: #062489;
+    width: 100%;
+
+    .country {
+        .country-flag {
+            text-align: center;
+
+            ul {
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+                list-style-type: none;
+
+                li {
+                    img {
+                        transform: rotate(0deg);
+                        transition: 1s;
+
+                        &:hover {
+                            transform: rotate(10deg);
+                        }
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #fff;
+                        &:hover{
+                            color: #FB9A8C;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .token{
+        width: 100%;
+        height: 100vh;
+    .token-dis{
+    .token-img{
+        display: flex;
+        justify-content: flex-end;
+        img{
+        width: 400px;
+        height: 500px;
+        }
+    }
+}
+    .data-distribution{
+        position: relative;
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li h2{
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+        }
+        li>h2>span{
+            color: #fff;
+            font-size: 37px;
+            font-weight: 700;
+        }
+        
+        .one{
+            position: absolute;
+            top: 53px;
+             left: -2%;
+        }
+        .two{
+            position: absolute;
+            top: 176px;
+            left: -2%;
+        }
+        .three{
+            position: absolute;
+            left: -2%;
+            top: 250px;
+        }
+        .four{
+            position: absolute;
+            left: -2%;
+            top: 371px;
+        }
+    }
+    }
+    .token-bottom{
+        position: relative;
+        .sales-content{
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            li h2{
+                font-size: 20px;
+                font-weight: 400;
+                color: #fff;
+            }
+            li>h2>span{
+                color: #fff;
+                font-size: 37px;
+                font-weight: 700;
+            }
+            .first{
+                position: absolute;
+                top: 22%;
+                left: 45%;
+            }
+            .second{
+                position: absolute;
+                top: 39%;
+                left: 37%;
+            }
+            .third{
+                position: absolute;
+                top: 55%;
+                left: 29%;
+
+            }
+            .fourth{
+                position: absolute;
+                top: 72%;
+                left: 21%;
+
+            }
+        }
+    }
+
+
+}
+
+
+// .development{
+//     height: 100vh;
+//     background: #031b69;
+// }

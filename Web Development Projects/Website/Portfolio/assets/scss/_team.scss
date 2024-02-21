@@ -1,0 +1,106 @@
+// Variables
+
+
+.team{
+    .team-header{
+        padding: 4rem 0rem;
+        text-align: center;
+        h2{
+            font-weight: 700;
+            font-size: 24px;
+
+        }
+        p{
+            color: #6c757d;
+            font-style: italic;
+            font-size: 14px;
+        }
+    }
+    .container-fluid{
+        padding-left: 8rem;
+        padding-right: 8rem;
+        .team-img{
+            border: 7px solid #e9ecef;
+            border-radius: 100%;
+            width: 160px;
+            height: 160px;
+            margin: auto;
+            margin-bottom: 17px;
+            img{
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+        .team-info{
+            h2{
+                font-weight: 700;
+                margin: 0;
+                font-size: 20px;
+            }
+            p{
+                font-size: 13px;
+
+            }
+        }
+        .team-icon{
+            display: flex;
+            justify-content: center !important;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            li{
+                border: 3px solid #212529;
+                border-radius: 50%;
+                width: 1.9rem;
+                background-color: #212529;
+                height: 1.9rem;
+                margin: 0px 1rem;
+                a{
+                    i{
+                        font-size: 15px;
+                        color:#fff;
+
+                    }
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+    }
+    .team-bottom{
+        padding: 20px 0px;
+        text-align: center;
+        align-items: center;
+        p{
+            font-size: 14px !important;
+        }
+    }
+    }
+
+
+
+
+
+    .link{
+        padding: 45px 0px;
+        .container-fluid{
+            padding-left: 6rem;
+            padding-right: 6rem;
+            .link-svg{
+                a{
+                img{
+                    height: 2.3rem;
+                    width: 100%;
+                }
+            }
+
+            }
+        }
+        @media(max-width:400px){
+            .link-svg{
+                margin-bottom: 1rem;
+            }
+        }
+    }

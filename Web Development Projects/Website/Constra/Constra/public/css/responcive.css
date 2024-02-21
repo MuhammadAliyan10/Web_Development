@@ -1,0 +1,267 @@
+@media (max-width:400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .top-header .links {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .top-header .cell {
+        float: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .header-nav .navbar .collapse .navbar-nav{
+        margin: 1rem 0rem 0rem 0rem;
+        width: 33%;
+    }
+    .header-nav .navbar .collapse .navbar-nav .nav-item .nav-link::after{
+        right: 41px;
+    }
+    .dropdown-menu{
+        padding: 0;
+    }
+    .header-nav form .form-control{
+        display: none;
+    }
+    .searchBtn{
+        display: none;
+    }
+
+    .navbar-toggler {
+        font-size: 12px;
+        border: none;
+    }
+
+    .header-nav .navbar .navbar-brand img {
+        height: 34px;
+    }
+
+    .header-nav .navbar {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .header-bottom .carousel-inner .carousel-item img {
+        height: 41vh !important;
+        width: 100%;
+    }
+
+    .header-bottom .carousel-control-prev .carousel-control-prev-icon {
+       display: none;
+    }
+
+    .header-bottom .carousel-control-next .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-text h1 {
+        font-size: 16px !important;
+
+    }
+
+    .carousel-text p {
+        font-size: 9px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .header-bottom .carousel-inner .carousel-item .carousel-text .header-btn {
+        padding: 6px 6px;
+        font-size: 5px;
+        border-radius: 4px;
+        margin-right: 3px;
+        letter-spacing: 1px;
+        transition: 1s;
+    }
+
+    .header-bottom .carousel-inner .carousel-item .center {
+        top: 32%;
+        left: 0%;
+    }
+
+    .top-section .top-Contant {
+        margin-bottom: 1rem;
+        padding: 13px;
+    }
+
+    .top-section .top-Contant h2,
+    .top-section .top-Contant .h2 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .top-section .top-Contant p {
+        font-size: 11px;
+    }
+
+    .middle-section .who-contant h2,
+    .middle-section .who-contant .h2 {
+        font-size: 26px;
+        font-weight: 400;
+        margin: 0px 0px 1rem 0px;
+    }
+
+    .middle-section .who-contant .who-btn {
+        padding: 10px 17px;
+        margin-bottom: 39px;
+    }
+
+    .bottom-section .top-bottom {
+        margin-top: 13rem;
+    }
+
+    .bottom-section .top-bottom h2,
+    .bottom-section .top-bottom .h2 {
+        font-size: 17px;
+    }
+
+    .bottom-section .top-bottom p {
+        font-size: 12px;
+    }
+
+    .bottom-section .service-img img {
+        width: 100%;
+    }
+
+    .bottom-section .service-contant {
+        padding: 31px 4px;
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .top-contant {
+        max-width: 100%;
+    }
+
+    .top-contant h2,
+    .top-contant .h2 {
+        font-size: 18px;
+    }
+
+    .top-contant p {
+        font-size: 13px;
+    }
+    .project .projects-content .container-fluid .project-image:hover .contant-box, .project .projects-content .container-sm .project-image:hover .contant-box, .project .projects-content .container-md .project-image:hover .contant-box, .project .projects-content .container-lg .project-image:hover .contant-box, .project .projects-content .container-xl .project-image:hover .contant-box, .project .projects-content .container-xxl .project-image:hover .contant-box{
+        width: 100%;
+    }
+    .project .construstion .con-contant{
+        display: block;
+    }
+    .project .construstion .con-contant .c-left h2, .project .construstion .con-contant .c-left .h2{
+        margin-bottom: 1rem !important;
+    }
+    .project .construstion .con-contant .c-left p{
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+    .project .construstion .con-contant .c-left p span{
+        font-size: 15px;
+    }
+    .project .construstion .con-contant .c-right .c-btn{
+        padding: 7px 21px;
+        font-size: 13px;
+    }
+    .choose{
+        height: 100%;
+        padding: 0;
+    }
+    .choose .chosse-contant ul li{
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+    .on-going  .col-lg-4{
+        padding-top: 0 !important;
+    }
+    .choose .right-choose img{
+        display: none;
+    }
+    .on-gallery .row{
+        --bs-gutter-x: 0.7rem;
+    }
+    .on-gallery .col-sm-3{
+        max-width: 50%;
+        margin-bottom: 0.7rem;
+
+    }
+    .on-gallery img{
+        width: 100%;
+
+    }
+    .news .news-contant .card {
+        margin-bottom: 2rem;
+    }
+    .news .news-contant{
+        padding: 3rem 0rem 0rem 0rem;
+    }
+    .buisness .p-list ul{
+        display: inline-block;
+    }
+    .buisness .p-list ul li{
+        display: inline-block;
+        max-width: 49%;
+    }
+    .left-footer-content{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .footer .left-footer-content iframe{
+        width : 22.6rem;
+    }
+    .footer .left-footer-content p{
+        margin-bottom: 0 !important;
+    }
+    .footer-header h2, .footer-header .h2{
+        text-align: center;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    .footer .footer-history li{
+        text-align: center;
+        display: block;
+    }
+    .footer .footer-history li span{
+        margin-right: auto;
+        margin-left: auto;
+        width: 55px;
+    height: 49px;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    }
+    .footer .footer-history li p{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .insta-img .col-sm-4{
+        max-width: 24% !important;
+
+    }
+    .email-us{
+        text-align: center;
+    }
+    .footer .email-us p{
+        font-size: 13px;
+    }
+    .footer .email-us ul{
+        justify-content: center;
+    }
+    .copy-rights .cp-contant{
+        display: block;
+    }
+    .copy-rights .cp-contant h2, .copy-rights .cp-contant .h2{
+        margin-bottom: 1rem;
+    }
+    .copy-rights .cp-contant ul{
+        justify-content: center;
+    }
+    .copy-rights .cp-contant ul li a{
+        padding: 0px 11px;
+    }
+}

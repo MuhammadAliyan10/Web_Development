@@ -1,0 +1,38 @@
+.mobile-app{
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   .mobile-about{
+    .mobile-img{
+        img{
+            width: 380px;
+        }
+    }
+    .mobile-contant{
+        color: #fff;
+        h3{
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        h2{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 17px;
+            line-height: 28px;
+        }
+        .passage{
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        .mobile-btn{
+            button{
+                padding: 18px 25px;
+                font-size: 14px;
+            }
+        }
+    }
+   }
+}

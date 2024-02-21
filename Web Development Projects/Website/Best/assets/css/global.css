@@ -1,0 +1,128 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #cbe5ff;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #062489 !important;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 17px;
+  font-size: 14px;
+  color: #fff;
+  transition: 2s;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background: -webkit-linear-gradient(right, #fe998b, #fa768d, #f78ca0);
+}
+.btn:hover {
+  background: -webkit-linear-gradient(right, #072487, #fa768d, #fe998b);
+  color: #fff;
+  transition: 2s;
+}
+
+.global-header {
+  padding: 6rem 0rem;
+  color: #fff;
+  text-align: center;
+}
+.global-header h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.global-header h1 {
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.space {
+  height: 90px;
+}
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #062489;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.linkdin {
+  background-color: #0077b5;
+}
+
+.bubbble {
+  background-color: #E84C88;
+}
+
+.twiter {
+  background-color: #55acee;
+}

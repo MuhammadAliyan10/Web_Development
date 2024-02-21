@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgb(255, 255, 255),rgb(48, 152, 48));
+    height: 100vh;
+}
+.logo{
+    margin: auto;
+    display: block;
+}
+.container{
+    max-width: 900px;
+    height: 400px;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: auto;
+    overflow-x: auto;
+}
+.container .content{
+    border: 2px solid white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    width: 27%;
+    padding: 11px;
+    border-radius: 13px;
+    margin: 14px 10px 12px 10px;
+}
+.container .left{
+    float: left;
+    clear: both;
+}
+.container .right{
+    float: right;
+    clear: both;
+}
+.container .content p{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.sudmit{
+    text-align: center;
+}
+.sudmit input{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 0;
+    box-shadow: none;
+}
+#btn{
+    padding: 12px 17px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}

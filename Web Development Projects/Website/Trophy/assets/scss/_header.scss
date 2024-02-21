@@ -1,0 +1,51 @@
+.header-bg {
+    background-image: url(../img/landing-1.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/landing-img-3.png);
+    background-size: cover;
+    background-position: center;
+    opacity: .2;
+   }
+
+    .header-info {
+        text-align: center;
+        z-index: 99;
+
+        img {
+            height: 60px;
+
+        }
+
+        h2 {
+            color: $secondary;
+            font-weight: 700;
+            font-size: 4.8rem;
+
+            span {
+                color: $primary;
+                font-weight: 700;
+
+            }
+        }
+
+        h3 {
+            color: $secondary;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 0;
+
+        }
+    }
+}

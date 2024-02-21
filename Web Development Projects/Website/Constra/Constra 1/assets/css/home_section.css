@@ -1,0 +1,237 @@
+.about-us {
+  padding-bottom: 50px;
+}
+.about-us .container .landmark-projects h2 {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+}
+.about-us .container .landmark-projects h3 {
+  color: black;
+  font-weight: 800;
+  font-size: 29px;
+  margin: 10px 0px;
+}
+.about-us .container .landmark-projects p {
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 46px;
+}
+.about-us .rewards {
+  display: block;
+}
+.about-us .rewards ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.about-us .rewards ul li {
+  display: flex;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.about-us .rewards ul li i {
+  color: #ffb600;
+  font-size: 40px;
+  margin-right: 16px;
+}
+.about-us .rewards ul li span {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.about-us .our-value {
+  padding-left: 25px;
+}
+.about-us .our-value .value-info h2 {
+  font-size: 32px;
+  color: black;
+  font-weight: 800;
+}
+.about-us .our-value .value-info p {
+  color: #212121;
+  padding: 5px 0px;
+}
+.about-us .accordion {
+  border: none !important;
+}
+.about-us .accordion .accordion-item {
+  border-radius: 0 !important;
+  display: block;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 10px;
+}
+.about-us .accordion .accordion-item .accordion-button {
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+.about-us .accordion .accordion-item .accordion-button::after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  background-color: black;
+  color: #fff;
+  border-radius: 3px;
+  background-image: none !important;
+  text-align: center;
+}
+.about-us .accordion .accordion-item .accordion-button:not(.collapsed) {
+  color: #ffb600;
+}
+.about-us .accordion .accordion-item .accordion-button:not(.collapsed):not(.collapsed)::after {
+  background-color: #ffb600;
+}
+.about-us .accordion .accordion-item .accordion-body {
+  border-top: 1px solid #dfdfdf;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+@media (max-width: 900px) {
+  .about-us .landmark-projects h2 {
+    font-size: 17px !important;
+  }
+  .about-us .landmark-projects h3 {
+    font-size: 23px !important;
+  }
+  .about-us .landmark-projects p {
+    margin-bottom: 28px !important;
+    font-size: 13px !important;
+  }
+  .about-us .rewards li {
+    margin-bottom: 32px !important;
+  }
+  .about-us .rewards li i {
+    font-size: 23px !important;
+  }
+  .about-us .rewards li span {
+    font-size: 10px !important;
+  }
+  .about-us .our-value {
+    padding-left: 0 !important;
+    padding-top: 7px !important;
+  }
+  .about-us .our-value h2 {
+    font-size: 23px !important;
+  }
+  .about-us .our-value p {
+    font-size: 13px !important;
+  }
+  .about-us .accordion-body {
+    font-size: 13px !important;
+  }
+}
+
+.information {
+  background-color: #252525;
+  padding: 70px 0px;
+}
+.information .container .info-text img {
+  margin: 0;
+}
+.information .container .info-text h2 {
+  color: #fff;
+  font-size: 44px;
+  margin: 16px 0px;
+  font-weight: 800;
+}
+.information .container .info-text h3 {
+  color: #ffb600;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 700;
+}
+@media (max-width: 900px) {
+  .information .info-text {
+    margin-bottom: 25px !important;
+  }
+  .information .info-text h2 {
+    font-size: 30px !important;
+  }
+}
+
+.what-we-do {
+  margin: 60px 0px;
+}
+.what-we-do h2 {
+  color: #212121;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+}
+.what-we-do h3 {
+  color: #212121;
+  font-weight: 800;
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+.ts-services .services .services-text {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.ts-services .services .services-text a {
+  color: #212121;
+  padding: 0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.ts-services .services .services-text a:hover {
+  color: #ffb600;
+}
+.ts-services .services .services-text p {
+  color: #555;
+  margin-top: 10px;
+}
+.ts-services .service-img img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .ts-services .service-img {
+    margin-bottom: 40px;
+  }
+}
+
+.projects .ts-projects .container ul {
+  display: flex;
+  border-bottom: 3px solid #ffb600;
+  margin: 0;
+  padding: 0;
+}
+.projects .ts-projects .container ul li {
+  list-style-type: none;
+  padding: 6px 25px;
+}
+.projects .ts-projects .container ul li:active {
+  background-color: #ffb600;
+}
+.projects .ts-projects .container ul li:first-child {
+  background-color: #ffb600;
+}
+.projects .ts-projects .container ul li a {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .projects .ts-projects {
+    display: none !important;
+  }
+  .projects .what-we-do h3 {
+    font-size: 28px !important;
+  }
+}

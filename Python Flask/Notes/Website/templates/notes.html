@@ -1,0 +1,95 @@
+{% extends "navbar.html" %} {% block title %}Notes {% endblock %} {% block time
+%} {{date}}{% endblock %} {% block content %}
+<h1 class="text-center my-4">Notes</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10">
+      <div class="my_notes">
+        <ul class="notes">
+        {%if not notes%}
+          <h2>No notes found. Please write a note.</h2>
+        {%else%}
+        {%for note in notes%}
+        <li>
+          <div class="row">
+            <span class="type">{{note.type}}</span>
+            <div class="col-sm-6"><h2>
+              {{note.title}}
+              </h2></div>
+            <div class="col-sm-6">
+              <span class="float-end"> Created At: {{note.timeStamps}}</span></div>
+          </div>
+          <div class="col-sm-12">
+            <p>{{note.description}}</p>
+          </div>
+        </li>
+        {%endfor%}
+        {%endif%}
+      </ul>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="create_notes">
+        <div class="add_note">
+          <button onclick="togglePopup()" class="add_note_btn">
+           Add Note
+          </button>
+          <div id="popupForm" class="popup-form">
+            <h2 class="mt-2 mb-4 text-center">Add Note</h2>
+            <form method="POST">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="form-row">
+                  <label for="title">Title:</label>
+                  <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    placeholder="Enter the title"
+                    class="form-control"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-row">
+                  <label for="type">Type:</label>
+                  <select id="type" name="type" class="form-control">
+                    <option value="Notes">Notes</option>
+                    <option value="Todos">Todos</option>
+                    <option value="Reminder">Reminder</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="description">Description:</label>
+              <textarea
+                id="description"
+                name="description"
+                class="form-control"
+                placeholder="Enter the description..."
+                rows="8"
+                required
+              ></textarea>
+            </div>
+            <div class="row">
+              <div class="col-sm-12"">
+                <button type="submit" class="button-sud float-end ms-3"">Add Note</button>
+            </form>
+                <button
+                  onclick="togglePopup()"
+                  class="button-sud close-btn float-end"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

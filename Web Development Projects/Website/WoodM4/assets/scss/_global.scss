@@ -1,0 +1,60 @@
+// General Style98
+.transition-200 {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.transition-300 {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.transition-400 {
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+.transition-500 {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+
+
+
+
+.btn-outline-primary{
+    padding: 6px 25px;
+    border-color: #816843;
+    color: #816843;
+    border-radius: 2px !important;
+    font-size: 14px;
+    background-color: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600!important;
+    letter-spacing: 3px!important;
+    &:hover{
+        color: white;
+        background-color: #816843;
+        @extend .transition-200
+    }
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Reem Kufi', sans-serif;
+}

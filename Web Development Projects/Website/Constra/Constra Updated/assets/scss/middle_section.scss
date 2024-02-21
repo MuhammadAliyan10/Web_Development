@@ -1,0 +1,27 @@
+.middle-section {
+  width: 100%;
+  height: 150vh;
+  background-color: #fff;
+  .container {
+    img {
+      background-position: center;
+      background-size: cover;
+    }
+    .card {
+      border: 1px solid #ced4da;
+      border-radius: 0;
+      .card-body {
+        padding: 30px;
+        h4 {
+          font-weight: 700;
+          font-size: 20px;
+          margin-bottom: 15px;
+          color: #52565e;
+        }
+        p {
+          color: #52565e;
+        }
+      }
+    }
+  }
+}

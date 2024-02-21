@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li{
+        margin: 10px 16px;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    .red{
+        color: red;
+    }
+    .adnimate{
+        animation: example 4s;
+        position: relative;
+    }
+    @keyframes example{
+        0%{
+            color: red;
+            top: 0%;
+            left: 0%;
+
+        }
+        25%{
+            color: blue;
+            top: 0%;
+            left: 100%;
+
+        }
+        50%{
+            color: red;
+            top: 50%;
+            left: 50%;
+
+        }
+        75%{
+            color: red;
+            top: 0%;
+            left: 0%;
+
+        }
+        100%{
+            color: red;
+            top: 100%;
+            left: -100%;
+
+        }
+
+    }
+    .span{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px 0px 0px 10px;
+        background-color: black;
+    }
+    progress {
+  accent-color: hsl(39, 100%, 50%);
+}
+</style>
+<!-- <body>
+    <div class="Header" id="nav">
+        <ul>
+            <li><a href="" id="chn">Home</a></li>
+            <li><a href="" id="chn-txt">Shop</a></li>
+             <li><a href="">About</a></li>
+        </ul>
+    </div>
+    <button type="button" onclick="my_function()">Click here to change the color</button>
+
+
+    <script>
+        function my_function(){
+           let change =  document.getElementById('chn');
+           change.classList.toggle('adnimate');
+           change.classList.toggle('span');
+           document.getElementById('chn-txt').innerHTML = "";
+        }
+    </script> -->
+    <body>
+        
+    <input type="checkbox" name="vehil1" id="one">
+    <label for="vehil1">Yes</label><br>
+    <input type="checkbox" name="vehil2" id="one">
+    <label for="vehil2">No</label><br>
+    <input type="radio" name="uep">
+    <label for="uep">You are intrested</label><br>
+    <input type="radio" name="nah">
+    <label for="uep">You are not intrested</label><br>
+
+
+    <label for="vol">Voluoum:</label>
+    <input type="range" name="vol" id="vol" min="0" max="50">
+
+    <label for="dow">Downloding</label>
+    <progress type="file" name="dow" id="dow" value="72" max="100">72%</progress>
+</body>
+</html>

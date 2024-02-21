@@ -1,0 +1,212 @@
+
+.middle-logo {
+    padding-top: 52px;
+    padding-bottom: 28px;
+    .container {
+        .logo-mid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-left: 4rem;
+            .logo {
+                margin-left: -113px;
+                a {
+                    img {
+                        width: 195px;
+                        height: 225px;
+                    }
+                }
+            }
+            .wp-logo {
+                top: -34px;
+                left: 100px;
+                width: 80px;
+                position: absolute;
+                height: 80px;
+                box-shadow: 0 0 40px 0 rgb(51 107 236 / 60%);
+                border-radius: 50%;
+                background-color: #336bec;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    width: 0;
+                    height: 0;
+                    border-top: 16px solid #336bec;
+                    transform: rotate(70deg);
+                    right: 3px;
+                    bottom: 0;
+                }
+            }//wp-logo
+            .esport-logo {
+                top: -83px;
+                right: 168px;
+                width: 100px;
+                position: absolute;
+                height: 100px;
+                box-shadow: 0 0 40px 0 rgb(122 65 223 / 60%);
+                border-radius: 50%;
+                background-color: #6a3bc0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    width: 0;
+                    height: 0;
+                    border-top: 16px solid #6a3bc0;
+                    transform: rotate(-70deg);
+                    left: 1px;
+                    bottom: 7px;
+                }
+                .esport-info {
+                    text-align: center;
+                    h2 {
+                        color: #fff;
+                        font-size: 13px;
+                        font-weight: 700;
+                        a {
+                            font-size: 11px;
+                            text-decoration: none;
+                            color: #fff;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        span {
+                            font-size: 18px;
+                            font-weight: 700;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }//h2
+                }//esport-info
+            }//esport-logo
+        }//logo-mid
+    }//container
+    @media(max-width:472px) {
+        .wp-logo {
+            display: none !important;
+        }
+        .esport-logo {
+            display: none !important;
+        }
+        .logo-mid {
+            margin-left: 3rem !important;
+            .logo {
+                margin-left: -87px !important;
+                a {
+                    img {
+                        width: 141px !important;
+                        height: 168px !important;
+                    }
+                }
+            }//logo
+        }//logo-mid
+    }//@media
+}//middle-logo
+
+.bottom-header {
+    text-align: center;
+    .container {
+        .bottom-info {
+            h2 {
+                color: #fff;
+                font-weight: 700;
+                font-size: 50px;
+                margin-bottom: 1rem;
+            }
+            h3 {
+                font-weight: 700;
+                color: #d5d4ec;
+                letter-spacing: .1em;
+                font-size: 11px;
+                opacity: .6;
+                margin-bottom: 3rem;
+            }
+        }//bottom-info
+        .sport-press {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .sp-logo {
+                margin: 0px 16px;
+            }
+        }//sport-press
+    }//container
+    @media(max-width:472px) {
+        .bottom-info {
+            h2 {
+                font-size: 24px !important;
+            }
+            h3 {
+                font-size: 8px !important;
+                margin-bottom: 1.5rem !important;
+            }
+        }//bottom-info
+         .sport-press {
+            .sp-logo {
+                margin: 0px 5px !important;
+
+                img {
+                    width: 90px !important;
+                }
+            }
+        }//sport-press
+    }//@media
+}//bottom-header
+
+.flip-img{
+    background-image: url(../img/flip-bg.png);
+    width: 414px;
+    height: 362px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+@media(max-width:472px) {
+    .flip-img{
+        display: none!important;
+    }
+}
+
+
+.mouse{
+    padding-top: 100px;
+    text-align: center;
+    img{
+        width: 20px;
+        height: 32px;
+        position: relative;
+        &::after{
+            content: "";
+            width: 2px;
+            height: 4px;
+            animation:  800ms infinite linear;
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            background-color: #fff;
+
+        }
+
+    }
+    .mouse-info{
+        text-align: center;
+        h2{
+          padding-top: 2rem;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+
+        }
+    }
+}

@@ -1,0 +1,201 @@
+.top-section {
+    background-color: #212121;
+    width: 100%;
+    height: 56vh;
+    border-bottom: 10px solid $primary;
+    margin-bottom: 60px;
+
+    .top-Contant {
+        padding: 50px 25px 15px 25px;
+        text-align: center;
+
+        img {
+            height: 70px;
+            margin-bottom: 2rem;
+            transition: transform .4s ease-in;
+
+            &:hover {
+                transform: scale(1.2);
+
+            }
+        }
+
+        h2 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 23px;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 13px;
+            color: #fff;
+            line-height: 24px;
+        }
+    }
+}
+
+.middle-section {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+
+    .who-contant {
+        h2 {
+            font-size: 50px;
+            font-weight: 500;
+            margin: 0px 0px 2rem 0px;
+
+            span {
+                color: $primary;
+                font-weight: 600;
+            }
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 25px;
+            color: #878787;
+            margin-bottom: 2rem;
+
+        }
+
+        .who-btn {
+            padding: 11px 20px;
+            color: #000;
+            font-size: 14px;
+            background-color: #fff;
+            text-transform: uppercase;
+            box-shadow: 0px 2px 8px 0px #ddd;
+            border: none;
+
+            &:hover {
+
+                color: $primary;
+            }
+        }
+    }
+
+    .who-cursoler {
+        .carousel-indicators {
+            position: absolute;
+            top: 93%;
+            left: 4%;
+            .active button{
+                background-color: $primary;
+            }
+        }
+        .carousel-indicators [data-bs-target] {
+            border-radius: 50%;
+            width: 10px;
+            border: 2px solid #fff;
+            height: 10px;
+            background-color: silver;
+            margin: 0px 9px;
+
+            &:focus {
+                background-color: #ffb600;
+            }
+        }
+    }
+}
+
+
+.bottom-section {
+    background: #fafafa;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+    .top-bottom {
+        border-left: 5px solid #ececec;
+        padding-left: 23px;
+        margin-bottom: 51px;
+        margin-top: 91px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+
+        h2 {
+            font-size: 22px;
+            color: #545454;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #878787;
+        }
+    }
+
+    .top-bottom::before {
+        contain: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(to left, transparent, transparent, #ececec);
+    }
+
+    .top-bottom::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(to left, transparent, transparent, #ececec);
+
+    }
+
+    .service-img {
+        overflow: hidden;
+        z-index: 1;
+        position: relative;
+
+        img {
+            transition: 0.3s;
+
+
+            &:hover {
+                transform: scale(1.2) rotate(5deg);
+
+            }
+        }
+    }
+
+    .service-contant {
+        padding: 15px;
+
+        h2 {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 25px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 13px;
+            line-height: 25px;
+        }
+
+        .service-btn {
+            padding: 6px 17px;
+            border: 1px solid #fff;
+            font-size: 14px;
+            color: #fff;
+            transition: 1s;
+            background-color: transparent;
+
+            &:hover {
+                color: #ffb600;
+                background-color: #fff;
+            }
+        }
+    }
+}

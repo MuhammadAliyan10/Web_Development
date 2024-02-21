@@ -1,0 +1,59 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../Static/style.css
+    body 
+        nav#nav-bar 
+            div.nav-brand 
+                img(src="./Static/img/top-logo.jpg")
+                h2 
+                | BMW
+            ul 
+                li #[a(href = "/home") Home]
+                li #[a(href = "/about") About]
+                li #[a(href = "/compeny") Compeny]
+                li #[a(href = "/services") Services]
+                li #[a(href = "/contact") Contact Us]
+
+        section.top-section 
+                .global-header 
+                 h1
+                 | Wellcome into New World
+
+        section.middle-section
+                .global-header
+                 h1 
+                 | Information
+                .card 
+                    .card-contant
+                        h2 About Us
+                        p We are here to complete your requirments and make your dream cars.We can make sports as well as royal cars.
+                .card 
+                    .card-contant
+                        h2 Our Team
+                        p Our team consist on the best programer,designer and producer in the world.
+                .card 
+                    .card-contant
+                        h2 Models
+                        p From 1978 till now we are launching the best ever car in the world.BMW is now on top 10 ranking in the world.
+
+
+        footer
+            .global-header 
+             h1 
+             | Sponcers
+
+            div#sponcer
+                img(src="./Static/img/footer4.png")
+                img(src="./Static/img/footer1.png")
+                img(src="./Static/img/footer2.png")
+                img(src="./Static/img/footer3.png")
+              
+        
+    
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    script 
+        include ../Static/script.js

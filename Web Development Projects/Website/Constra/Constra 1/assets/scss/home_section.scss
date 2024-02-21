@@ -1,0 +1,269 @@
+.about-us {
+    padding-bottom: 50px;
+    .container {
+        .landmark-projects {
+            h2 {
+                color: #212121;
+                font-size: 20px;
+                font-weight: 300;
+                margin: 0;
+            }
+            h3 {
+                color: black;
+                font-weight: 800;
+                font-size: 29px;
+                margin: 10px 0px;
+            }
+            p {
+                color: #555;
+                margin-top: 0;
+                margin-bottom: 46px;
+            }
+        }
+    }
+    .rewards {
+        display: block;
+        ul {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li {
+                display: flex;
+                width: 45%;
+                margin-bottom: 40px;
+                i {
+                    color: #ffb600;
+                    font-size: 40px;
+                    margin-right: 16px;
+                }
+                span {
+                    color: black;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .our-value {
+        padding-left: 25px;
+        .value-info {
+            h2 {
+                font-size: 32px;
+                color: black;
+                font-weight: 800;
+            }
+            p {
+                color: #212121;
+                padding: 5px 0px;
+            }
+        }
+    }
+    .accordion {
+        border: none !important;
+        .accordion-item {
+            border-radius: 0 !important;
+            display: block;
+            border: 1px solid #dfdfdf;
+            margin-bottom: 10px;
+            .accordion-button {
+                font-weight: 700;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                background-color: transparent;
+                box-shadow: none !important;
+                &::after {
+                    content: "\f107";
+                    font-family: "Font Awesome 5 Free";
+                    background-color: black;
+                    color: #fff;
+                    border-radius: 3px;
+                    background-image: none !important;
+                    text-align: center;
+                }
+                &:not(.collapsed) {
+                    color: #ffb600;
+                    &:not(.collapsed)::after {
+                        background-color: #ffb600;
+                    }
+                }
+            }
+            .accordion-body {
+                border-top: 1px solid #dfdfdf;
+                font-family: "Open Sans", sans-serif;
+               font-size: 15px;
+            }
+        }
+    }
+    @media(max-width:900px) {
+        .landmark-projects {
+            h2 {
+                font-size: 17px !important;
+            }
+
+            h3 {
+                font-size: 23px !important;
+            }
+
+            p {
+                margin-bottom: 28px !important;
+                font-size: 13px !important;
+            }
+        }
+        .rewards {
+            li {
+                margin-bottom: 32px !important;
+                i {
+                    font-size: 23px !important;
+                }
+                span {
+                    font-size: 10px !important;
+                }
+            }
+        }
+        .our-value {
+            padding-left: 0 !important;
+            padding-top: 7px !important;
+            h2 {
+                font-size: 23px !important;
+            }
+            p {
+                font-size: 13px !important;
+            }
+        }
+        .accordion-body {
+            font-size: 13px !important;
+        }
+    }
+}
+
+//information
+
+.information {
+    background-color: #252525;
+    padding: 70px 0px;
+    .container {
+        .info-text {
+            img {
+                margin: 0;
+            }
+            h2 {
+                color: #fff;
+                font-size: 44px;
+                margin: 16px 0px;
+                font-weight: 800;
+            }
+            h3 {
+                color: #ffb600;
+                font-size: 16px;
+                margin: 0;
+                font-weight: 700;
+            }
+        }
+    }
+    @media(max-width:900px) {
+        .info-text {
+            margin-bottom: 25px !important;
+            h2 {
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+.what-we-do {
+    margin: 60px 0px;
+    h2 {
+        color: #212121;
+        font-size: 18px;
+        margin: 0;
+        font-weight: 300;
+    }
+    h3 {
+        color: #212121;
+        font-weight: 800;
+        font-size: 36px;
+        margin-top: 5px;
+    }
+}
+.ts-services {
+    .services {
+        .services-text {
+            display: block;
+            margin-left: 25px;
+            margin-bottom: 40px;
+            padding: 0;
+            a {
+                color: #212121;
+                padding: 0;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Montserrat', sans-serif;
+                &:hover {
+                    color: #ffb600;
+                }
+            }
+            p {
+                color: #555;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .service-img {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    @media(max-width:900px) {
+        .service-img {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+.projects {
+    .ts-projects {
+        .container {
+            ul {
+                display: flex;
+                border-bottom: 3px solid #ffb600;
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style-type: none;
+                    padding: 6px 25px;
+                    &:active {
+                        background-color: #ffb600;
+                    }
+                    &:first-child {
+                        background-color: #ffb600;
+                    }
+                    a {
+                        color: #212121;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: 'Open Sans', sans-serif;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:900px){
+        .ts-projects{
+            display: none !important;
+        }
+        .what-we-do{
+            h3{
+                font-size: 28px !important;
+            }
+        }
+    }
+}

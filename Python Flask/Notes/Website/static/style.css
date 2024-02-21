@@ -1,0 +1,191 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.top-header {
+    background-color: #FFFFFF;
+    padding: 10px 0px;
+
+}
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+
+.navbar {
+    background-color: #06283D !important;
+
+}
+
+.top-header p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    letter-spacing: 4px;
+}
+
+.nav-link {
+    letter-spacing: 2px;
+}
+
+
+/* Styles for the popup form */
+.popup-form {
+    width: 40rem;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-top: 4px;
+}
+
+
+
+.button-sud {
+    padding: 10px 20px !important;
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff !important;
+    margin-top: 5px;
+    border-color: transparent;
+    background: #ffb600;
+
+    &:hover {
+        background-color: #272D33;
+        color: #ffb600;
+        transition: 0.7s;
+    }
+}
+
+.close-btn {
+    padding: 10px 20px !important;
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff !important;
+    margin-top: 5px;
+    border-color: transparent;
+    background: #ffb600;
+
+    &:hover {
+        background-color: #272D33;
+        color: #ffb600;
+        transition: 0.7s;
+    }
+}
+
+.add_note_btn {
+    padding: 12px 25px !important;
+    font-size: 14px;
+    border-radius: 3px;
+    line-height: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff !important;
+    margin-top: 5px;
+    border-color: transparent;
+    background: #ffb600;
+
+    &:hover {
+        background-color: #272D33;
+        color: #ffb600;
+        transition: 0.7s;
+    }
+}
+
+.notes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.notes li {
+
+    padding: 20px;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.notes li h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.type {
+    position: absolute;
+    top: -1%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px;
+    font-size: 12px;
+    left: 0%;
+    background-color: #06283D;
+    width: auto;
+    border-radius: 0px 10px 10px 0px;
+    height: auto;
+    color: #fff;
+}

@@ -1,0 +1,252 @@
+@media screen and (max-width:400px) {
+    .banner {
+        position: relative;
+    }
+
+    .banner .banner-contant {
+        position: absolute;
+        top: 23% !important;
+        left: 2% !important;
+    }
+
+    .banner .banner-img img {
+        height: 51vh;
+    }
+
+    .my-story .story-img img {
+        height: 17rem;
+    }
+
+    .navbar-brand img {
+        width: 60px;
+        height: 44px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: #77b6ea;
+        padding: 1.4rem 0rem;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+
+
+    .container-fluid {
+        padding: 0rem 1rem !important;
+    }
+
+    .donate .donate-contant {
+        height: auto;
+
+        padding: 10px 2rem !important;
+    }
+
+    .food-distribution .food-dis-img img {
+        height: 18rem;
+    }
+
+    .food-bank .food-bank-img img {
+        height: 17rem;
+    }
+
+    .gallery .row {
+        --bs-gutter-x: 0rem;
+        --bs-gutter-y: 2rem;
+    }
+
+    .gallery {
+        margin: 2rem 0rem 3rem 0rem;
+    }
+
+    .gallery .gallery-img img {
+        height: 17rem;
+    }
+
+    .food-bank h2 {
+        margin-bottom: 2rem;
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .food-bank .food-bank-contant p {
+        line-height: 30px;
+        font-size: 18px;
+        margin-top: 17px;
+    }
+
+    .footer-center {
+        margin: 1.8rem 0rem 1rem 0rem;
+    }
+
+    .mapouter {
+        display: flex !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .gmap_canvas {
+        height: 280px !important;
+    }
+
+    .footer {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .our-project .our-contant h2 {
+        font-size: 36px;
+        margin-bottom: 1rem;
+    }
+
+    .footer .footer-left p {
+        margin: 1rem 0rem 2rem 0rem;
+    }
+
+    .footer .footer-left li a i {
+        font-size: 23px;
+        color: #f3f3f6;
+    }
+
+    .footer .footer-left ul {
+        justify-content: space-between;
+    }
+
+    .contact .contact-conatnt {
+        height: 567px;
+        width: auto;
+    }
+
+
+
+    .donate-section .donate-contant h2 {
+        font-size: 37px;
+    }
+
+    .donate-section .donate-contant p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .donate-method {
+        padding: 0px 0.7rem;
+    }
+
+    .donate-service p {
+        line-height: 28px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:800px){
+
+    .banner {
+        position: relative;
+    }
+
+    .banner .banner-contant {
+        position: absolute;
+        top: 23% !important;
+        left: 2% !important;
+    }
+    .banner .banner-img img {
+        height: 82vh;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: #77b6ea;
+        padding: 1.4rem 0rem;
+    }
+
+    .collapse .navbar-nav .nav-item .nav-link {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+
+
+
+
+    .donate .donate-contant {
+        background-color: #add8e6;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        padding: 13px 5rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-fluid {
+        padding: 0rem 3rem;
+    }
+    .gallery .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 2rem;
+    }
+    .mapouter {
+        width: auto !important;
+        display: flex !important;
+    }
+    .gmap_canvas {
+        width: 100% !important;
+    }
+
+    .my-story .story-img img {
+        height: 25rem;
+    }
+    .food-distribution .food-dis-img img {
+         height: 25rem;
+    }
+    .food-bank h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .food-bank .food-bank-img img {
+        height: 24rem;
+        margin-bottom: 2rem;
+    }
+    .gallery .gallery-img img {
+        height: 25rem;
+    }
+    .footer .footer-left p {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    .our-project .container-fluid {
+        padding: 0rem 5rem;
+    }
+
+}

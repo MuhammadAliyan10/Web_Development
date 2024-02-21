@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <nav>
+            <div class="nav-logo">
+                <img src="./images/logo.png">
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Card</a></li>
+                </ul>
+            </div>
+        </nav>
+
+         <div class="information">
+            <div class="overlay"></div>
+            <img src="./images/mobile.png" alt="mobile" class="mobile">
+            <div id="circle">
+        <div class="features one">
+            <img src="./images/battery.png" alt="img">
+            <div>
+            <h2>Battery</h2>
+            <p>2000 MAH Battery</p>
+        </div>
+        </div>
+        <div class="features two">
+            <img src="./images/camera.png" alt="camera">
+            <div>
+            <h2>Camera</h2>
+            <p>30 MP Backcamera</p>
+        </div>
+        </div>
+        <div class="features three">
+            <img src="./images/display.png" alt="">
+            <div>
+            <h2>Display</h2>
+            <p>Big Display</p>
+        </div>
+        </div>
+        <div class="features four">
+            <img src="./images/processor.png" alt="">
+            <div>
+            <h2>Processor</h2>
+            <p>Octa core Snapdragon</p>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="button">
+    <div id="upper">
+        <img src="./images/arrow.png">
+    </div>
+    <h2>Featuers</h2>
+    <div id="lower">
+        <img src="./images/arrow.png">
+    </div>
+</div>
+</div>
+
+
+<script>
+
+var circle = document.getElementById("circle");
+var upper = document.getElementById("upper");
+var lower = document.getElementById("lower");
+
+var rotateValue = circle.style.transform;
+var rotateSum;
+
+
+upper.onclick = function()
+{
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+lower.onclick = function()
+{
+    rotateSum = rotateValue + "rotate(90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+
+</script>
+
+
+
+
+
+    
+</body>
+</html>

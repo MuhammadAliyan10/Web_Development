@@ -1,0 +1,169 @@
+// Module Style
+
+.about-header {
+    padding: 4rem 0rem;
+    text-align: center;
+
+    h2 {
+        font-weight: 700;
+        font-size: 24px;
+
+    }
+
+    p {
+        color: #6c757d;
+        font-style: italic;
+        font-size: 14px;
+    }
+}
+
+.container {
+    .about-section {
+        position: relative;
+        padding: 0;
+        list-style-type: none;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 49%;
+            top: 0;
+            background-color: #e9ecef;
+            width: 2px;
+            bottom: 0;
+            margin-left: -1.5px;
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 40px;
+            min-height: 100px;
+
+            &::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .about-img {
+                width: 140px;
+                height: 140px;
+                margin-left: -85px;
+                text-align: center;
+                color: white;
+                border: 7px solid #e9ecef;
+                border-radius: 100%;
+                background-color: #ffc800;
+                position: absolute;
+                left: 50%;
+
+                img {
+                    border-radius: 50% !important;
+                    width: 100%;
+                    height: auto;
+
+                }
+            }
+
+            .about-info-left {
+                padding: 0 20px 20px 100px;
+                float: left;
+                width: 41%;
+                text-align: right;
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 19px;
+
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 1.6;
+
+                }
+
+                &::after {
+                    content: "";
+                    display: table;
+                }
+            }
+
+            .about-info-right {
+                padding: 0 20px 20px 0px;
+                float: right;
+                width: 41%;
+                text-align: left;
+
+                h2 {
+                    font-weight: 700;
+                    font-size: 19px;
+
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 1.6;
+
+                }
+
+                &::after {
+                    content: "";
+                    display: table;
+                }
+            }
+        }
+
+        .about-img {
+            h3 {
+                font-size: 15px;
+                font-weight: 700;
+                display: inline-block;
+                text-align: center;
+                margin-top: 32px;
+            }
+        }
+    }
+
+    @media(max-width:700px) {
+        .about-img {
+            width: 80px!important;
+            height: 80px!important;
+            left: 29%!important;
+        }
+
+        p {
+            font-size: 11px !important;
+        }
+
+        .about-info-left {
+            text-align: left !important;
+            float: right !important;
+            width: 66% !important;
+            padding: 0 !important;
+        }
+
+        .about-info-right {
+            text-align: left !important;
+            float: right !important;
+            width: 66% !important;
+            padding: 0 !important;
+        }
+
+        .about-section {
+            &::before {
+                left: 14% !important;
+            }
+        }
+
+        li {
+            margin-bottom: 22px !important;
+        }
+        .about-img {
+            h3{
+                font-size: 11px !important;
+                margin-top: 14px !important;
+            }
+        }
+    }
+}

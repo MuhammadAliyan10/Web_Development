@@ -1,0 +1,182 @@
+.footer {
+    background-color: #212121;
+    padding-top: 60px;
+    padding-bottom: 25px;
+
+    .left-footer-content {
+        img {
+            margin-bottom: 19px;
+        }
+
+        iframe {
+            width: 15.6rem;
+            height: 7rem;
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 13px;
+            margin: 0;
+            line-height: 24px;
+
+            span {
+                color: #00aff0;
+                font-family: "Raleway", sans-serif;
+            }
+
+            .free {
+                color: #ff9800;
+            }
+        }
+    }
+
+    .footer-history {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                width: 108px;
+                height: 48px;
+                display: flex;
+                background: 0;
+                color: #ffffff;
+                font-size: 13px;
+                border: 1px solid #ffffff;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+                font-family: "Raleway", sans-serif;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p {
+                color: #ffffff;
+                line-height: 26px;
+                font-size: 14px;
+                font-weight: 300;
+                margin-left: 1rem;
+            }
+        }
+    }
+
+    .email-us {
+        .input-field {
+            position: relative;
+
+            input {
+                margin-bottom: 2rem;
+                width: 100%;
+                border: 1px solid #ffffff;
+                color: #ffffff;
+                background: transparent;
+                font-size: 14px;
+                font-family: "Raleway", sans-serif;
+                padding: 10px 14px;
+                outline: 0;
+                margin-bottom: 10px;
+            }
+
+            .sudmit {
+                width: 27px;
+                position: absolute;
+                bottom: 19px;
+                right: 9px;
+                height: 26px;
+                border: 1px solid #fff;
+                background-color: transparent;
+                color: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 13px;
+
+            }
+        }
+
+        p {
+            color: #ffffff;
+            line-height: 26px;
+            font-size: 14px;
+            font-weight: 300;
+
+        }
+
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin: 8px 12px;
+
+                a {
+                    text-decoration: none;
+
+                    i {
+                        font-size: 14px;
+                        transition: 1s;
+                        color: #fff;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copy-rights {
+    background-color: #121212;
+    padding: 1.7rem 0rem;
+
+    .cp-contant {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            color: #fff;
+            margin: 0;
+            font-size: 15px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                color: #ffffff;
+                a {
+                    font-family: "Open Sans", sans-serif;
+                    color: #fff;
+                    text-decoration: none;
+                    transition: .2s;
+                    font-size: 12px;
+                    padding: 0px 14px;
+                    &:hover {
+                        color: #ff9800;
+                    }
+                }
+            }
+        }
+    }
+}

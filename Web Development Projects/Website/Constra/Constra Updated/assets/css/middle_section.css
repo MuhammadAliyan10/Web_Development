@@ -1,0 +1,25 @@
+.middle-section {
+  width: 100%;
+  height: 150vh;
+  background-color: #fff;
+}
+.middle-section .container img {
+  background-position: center;
+  background-size: cover;
+}
+.middle-section .container .card {
+  border: 1px solid #ced4da;
+  border-radius: 0;
+}
+.middle-section .container .card .card-body {
+  padding: 30px;
+}
+.middle-section .container .card .card-body h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #52565e;
+}
+.middle-section .container .card .card-body p {
+  color: #52565e;
+}

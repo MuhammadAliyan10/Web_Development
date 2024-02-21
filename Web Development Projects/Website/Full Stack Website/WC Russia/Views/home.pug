@@ -1,0 +1,59 @@
+doctype html 
+html 
+    head 
+        style 
+            include ../Static/style.css
+    body
+        header 
+             .top-header
+              .container
+               .nav-bar 
+                    h2 FiFa 
+                    ul 
+                      li #[a(href="/") Home]
+                      li #[a(href="/about") About]
+                      li #[a(href="/ticket") Ticket]
+                      li #[a(href="/stadium") Stadium]
+                      li #[a(href="/contact") Contact Us]
+               .top-bg
+                  img(src='/Static/img/top-logo.png' class='top-logo')
+                  img(src='/Static/img/top-header.png' class='top-image') 
+        .top-guardian
+         .container
+          .guardian 
+             h2 Your complete guide to all 736 players at the 2018 World Cup
+             .guardian-logo
+               p Via the Guardian
+               img(src='/Static/img/g.png')
+
+        .container 
+         section.top-section 
+                .left-contant 
+                    h2 All you need to know about the players
+                    p.top-para Biographies of every player in all 32 squads in Russia, including caps, goals, nicknames and hobbies, plus ratings for every single performance at the World Cup finals.
+                    p We strive to give you an unbiased, trustworthy and in-depth view of the world's most prestigious football tournament. If you think that’s worth something, then you can support The Guardian from as little as £1 – and it only takes a minute. Support The Guardian’s World Cup coverage #[span(id='dots') .....] #[span(id="demo") We strive to give you an unbiased, trustworthy and in-depth view of the world's most prestigious football tournament. If you think that’s worth something, then you can support The Guardian from as little as £1 – and it only takes a minute. Support The Guardian’s World Cup coverage]
+                    button(id='view_more')  View More
+                .right-contant 
+                    img(src='/Static/img/salah.png')
+
+        .container 
+         section.middle-section 
+                .left-contant 
+                    img(src='/Static/img/gk.png')
+                .right-contant 
+                    h2 Russia 2018 World Cup: the complete guide to all the stadiums
+                    p.top-para All you need to know about the 12 venues for World Cup 2018, including history lessons and the hitches along the way
+                    p #[a(href='/') View More]
+
+
+
+
+
+
+
+
+
+        script
+            include ../Static/script.js
+
+    footer

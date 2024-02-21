@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding-left:25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-adress i{
+    color: grey;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-header .container{
+    padding: 10px 0;
+    background-color: lightgrey;
+}
+.top-social i{
+    color: grey;
+}
+.top-social i:hover{
+    color: black;
+}

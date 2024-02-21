@@ -1,0 +1,32 @@
+.mobile-app {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.mobile-app .mobile-about .mobile-img img {
+  width: 380px;
+}
+.mobile-app .mobile-about .mobile-contant {
+  color: #fff;
+}
+.mobile-app .mobile-about .mobile-contant h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.mobile-app .mobile-about .mobile-contant h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.mobile-app .mobile-about .mobile-contant p {
+  font-size: 17px;
+  line-height: 28px;
+}
+.mobile-app .mobile-about .mobile-contant .passage {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.mobile-app .mobile-about .mobile-contant .mobile-btn button {
+  padding: 18px 25px;
+  font-size: 14px;
+}

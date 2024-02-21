@@ -1,0 +1,59 @@
+// Layout Style
+// Module Style
+.transition-200 {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.transition-300 {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.transition-400 {
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+.transition-500 {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #6c757d !important;
+}
+.btn-primary{
+    padding: 12px 30px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    &:hover{
+        color: #fff;
+        background-color: #d9aa00;
+        border-color: #cca000;
+    }
+}
+.container-fluid {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}

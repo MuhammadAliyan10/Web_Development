@@ -1,0 +1,83 @@
+// Mixins
+
+
+
+.home-section {
+    padding: 5rem 0rem;
+
+    .container-fluid {
+        padding-left: 9rem;
+        padding-right: 9rem;
+
+        .shoreline {
+            .row {
+                justify-content: center;
+                align-items: center;
+
+                .shoreline-image {
+                    padding: 2rem 0rem;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .shoreline-info {
+                    padding-left: 2rem;
+                    border-left: 5px solid #64a19d;
+
+                    h2 {
+                        font-size: 18px;
+                        color: black;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        color: rgba(0, 0, 0, 0.5) !important;
+                    }
+                }
+            }
+        }
+
+        .mountain { 
+            padding-bottom: 3rem;
+            .mou-img {
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+                .info {
+                    background-color: black;
+                    text-align: center;
+                    align-items: center;
+                    height: 100%;
+                    padding: 5rem;
+                    display: block;
+
+                    h2 {
+                        color: #fff;
+                        font-size: 21px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 1.6;
+                        margin: 0;
+                    }
+
+                }
+        }
+    }
+    @media(max-width:600px){
+        .container-fluid{
+            padding-left: 3rem !important;
+            padding-right: 3rem !important;
+            .shoreline-info{
+                border: 0 !important;
+                padding: 0px 1rem !important;
+            }
+        }
+    }
+}

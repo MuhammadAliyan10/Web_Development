@@ -1,0 +1,102 @@
+// Module Style
+.transition-200 {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.transition-300 {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.transition-400 {
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.transition-500 {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-btn {
+  padding: 12px 36px;
+  border: 2px solid #feb900;
+  background: 0 0;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+  &:hover {
+    background-color: #feb900;
+    @extend .transition-300;
+  }
+}
+
+.quote-btn {
+  padding: 12px 36px;
+  border: 2px solid #feb900;
+  background: #feb900;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  &:hover {
+    background-color: rgb(193, 181, 149);
+    @extend .transition-300;
+  }
+}
+
+.main-heading {
+  text-align: center;
+  padding: 3rem 0px;
+  position: relative;
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2e3135;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #feb900;
+    top: 33%;
+    left: 35%;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #feb900;
+    top: 33%;
+    right: 35%;
+  }
+}

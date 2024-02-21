@@ -1,0 +1,28 @@
+.sharply-footer .background {
+  background-color: black;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.sharply-footer .background .container .row h2 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+.sharply-footer .background .container .row ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+.sharply-footer .background .container .row ul li {
+  font-size: 17px;
+  list-style-type: none;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.sharply-footer .background .container .row ul li a {
+  color: #fff;
+}
+.sharply-footer .background .container .row ul li a:hover {
+  color: purple;
+}

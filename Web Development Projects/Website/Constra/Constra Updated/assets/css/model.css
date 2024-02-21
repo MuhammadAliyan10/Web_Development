@@ -1,0 +1,58 @@
+.models {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f6f7;
+}
+.models .top-ul ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.models .top-ul ul li {
+  list-style: none;
+  border-bottom: 4px solid #ebebed;
+  padding: 6px 95px;
+}
+.models .top-ul ul li:hover {
+  border-color: #feb900;
+}
+.models .top-ul ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #52565e;
+}
+.models .top-ul ul li a:hover {
+  color: #feb900;
+}
+.models .left-contact .left-top {
+  position: relative;
+}
+.models .left-contact .left-top h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #52565e;
+  margin-bottom: 2rem;
+}
+.models .left-contact .left-top::after {
+  content: "";
+  width: 69px;
+  height: 4px;
+  background-color: #feb900;
+  position: absolute;
+  top: 43%;
+  left: 0;
+}
+.models .left-contact .left-top p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.models .left-contact .cheak p {
+  margin-bottom: 18px;
+  margin-left: 6px;
+  font-size: 15px;
+  line-height: 25px;
+}
+.models .left-contact .cheak p i {
+  color: #feb900;
+}

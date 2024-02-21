@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .my_change{
+        color: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+</style>
+<body>
+   <p id="demo">Click the button to show the information</p>
+   <button onclick="my_function()">Click here</button>
+   <button onclick="my_chn()">Change Style</button>
+    <script>
+        // const info = {
+        //     firstname : "Muhammad",
+        //     middlename : 'Aliyan',
+        //     lastname : 'Nadeem',
+        //     age : 19,
+        //     class: "BSCS-2",
+        //     fullname: function(){
+        //         return this.firstname+ "" + this.middlename + " " + this.lastname
+        //     }
+        // }
+        // document.getElementById('demo').innerHTML = info.fullname();
+
+        const myName = {
+            name: 'Aliyan',
+            age: 19,
+            class : 'BSCS',
+            smester:"second",
+            section : 'A',
+            cgpa : 3.56,
+            fullInfo: function(){
+                return "My name is " + this.name + 'my age is '+ this.age + 'and my class is '+ this.class  +'and smester is '+ this.smester + 'and section is '+ this.section + 'and my cgpa of first smester is '+ this.cgpa;
+            }
+        }
+        function my_function(){
+        document.getElementById('demo').innerHTML = myName.fullInfo();
+        }
+        function my_chn(){
+            document.getElementById('demo').classList.toggle('my_change')
+        }
+    </script>
+
+    
+</body>
+</html>

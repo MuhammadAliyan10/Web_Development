@@ -1,0 +1,110 @@
+.top-section {
+    padding-top: 3rem;
+
+    .container {
+        .top-info {
+            display: flex;
+            justify-content: space-between;
+
+            .top-span {
+                margin-right: 1rem;
+                position: relative;
+                .burger-menu {
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    width: 27px;
+                    height: 40px;
+                    right: -11px;
+                    position: absolute;
+                    padding: 0;
+                    z-index: 99;
+
+                    &>span {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 5px;
+
+                        &:nth-child(1)::before {
+                            display: block;
+                            content: "";
+                            width: 5px;
+                            height: 4px;
+                            background-color: #fff;
+                            @extend .transition-200 ;
+                        }
+
+                        &:nth-child(1)::after {
+                            content: "";
+                            width: 18px;
+                            height: 4px;
+                            background-color: #fff;
+                            @extend .transition-200 ;
+                        }
+
+                        &:nth-child(2)::before {
+                            display: block;
+                            content: "";
+                            width: 7px;
+                            height: 4px;
+                            background-color: #fff;
+                        }
+
+                        &:nth-child(2)span {
+                            content: "";
+                            width: 5px;
+                            height: 4px;
+                            background-color: #fff;
+                        }
+
+                        &:nth-child(2)::after {
+                            display: block;
+                            content: "";
+                            width: 7px;
+                            height: 4px;
+                            background-color: #fff;
+                        }
+
+                        &:nth-child(3)::before {
+                            content: "";
+                            width: 18px;
+                            height: 4px;
+                            background-color: #fff;
+                            @extend .transition-200 ;
+                        }
+
+                        &:nth-child(3)::after {
+                            display: block;
+                            content: "";
+                            width: 5px;
+                            height: 4px;
+                            background-color: #fff;
+                            @extend .transition-200 ;
+                        }
+
+                    }
+                    &:hover{
+                     :nth-child(1)::before {
+                        width: 18px;
+                    }
+                    :nth-child(1)::after{
+                        width: 5px;
+                    }
+                    :nth-child(3)::before {
+                        width: 5px;
+                    }
+                    :nth-child(3)::after {
+                        width: 18px;
+
+                    }
+                }
+
+
+                }
+            }
+        }
+    }
+    @media(max-width:440px){
+
+    }
+}
